@@ -27,21 +27,39 @@ La struttura base del corso ripercorre il tutorial presente sul sito [htmx.org](
 
 ---
 
-## HTMX
+## HTMX - Cos'è?
 
 HTMX è una libreria che consente di accedere direttamente alle funzionalità moderne del browser da HTML, anziché utilizzare JavaScript.
+
+Questo tipo di approccio è interessante per tutte i contesti in cui si vogliono scrivere siti dinamici, delegando molto della programmazione ad una corretta sintassi HTML.
 
 ---
 
 ## HTMX - Esempio
 
+Vediamo di come sia facile effettuare una chiamata HTTP/GET, utilizzando la coppia di attributi: **hx-get** e **hx-swap**
+
+```html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>HTMX Hello World</title>
+    <script src="https://unpkg.com/htmx.org@1.9.5"></script>
+</head>
+<body>
+    <!-- have a button GET a click via AJAX -->
+    <button hx-get="/esercizi/01-helloworld-clickme.html" hx-swap="outerHTML">
+        Cliccami
+    </button>
+</body>
+</html>
 ```
-<script src="https://unpkg.com/htmx.org@1.9.5"></script>
-<!-- have a button POST a click via AJAX -->
-<button hx-post="/clicked" hx-swap="outerHTML">
-  Click Me
-</button>
-```
+
+---
+
+## HTMX
+
+
 
 ---
 

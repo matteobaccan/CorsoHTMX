@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>HTMX Hello World</title>
+    <script src="https://unpkg.com/htmx.org@1.9.5"></script>
+</head>
+
+<body>
+
+    <!-- have a button POST a click via AJAX -->
+    <button hx-get="/esercizi/01-helloworld-clickme.html" hx-swap="outerHTML">
+        Cliccami
+    </button>
+
+</body>
+
+</html>
