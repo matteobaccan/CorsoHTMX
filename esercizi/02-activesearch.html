@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>HTMX Hello World</title>
+    <script src="https://unpkg.com/htmx.org@1.9.5"></script>
+</head>
+
+<body>
+
+    Cerca
+    <input type="text" 
+            name="q" 
+            hx-get="02-activesearch-get.html" 
+            hx-trigger="keyup changed delay:500ms"
+            hx-target="#risultato" 
+            placeholder="Scrivi cosa cerchi ...">
+    <div id="risultato"> ** NULLA ** </div>
+
+</body>
+
+</html>
