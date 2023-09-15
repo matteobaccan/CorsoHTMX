@@ -3,7 +3,7 @@ theme: default
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('img/background.svg')
 marp: true
 footer: https://github.com/matteobaccan/CorsoHTMX
 ---
@@ -61,7 +61,7 @@ Vediamo di come sia facile effettuare una chiamata HTTP/GET, utilizzando la copp
 
 ## HTMX - installazione
 
-HTMX si può installare utilizando una CDN
+HTMX si può installare utilizzando una CDN
 
 ```html
 <script src="https://unpkg.com/htmx.org@1.9.5" 
@@ -185,6 +185,14 @@ Multiple triggers can be specified in the hx-trigger attribute, separated by com
 
 ---
 
-### Disclaimer
+## Disclaimer
 
 L'autore ha generato questo testo in parte con GPT-3, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità  ultima del contenuto di questa pubblicazione.
+
+L'immagine di sfondo è stata generata con <https://app.haikei.app>
+
+---
+
+## Licenza
+
+Queste slide sono rilasciate sotto una licenza Creative Commons BY-NC 4.0. Puoi utilizzare, modificare e distribuire queste slide a condizione che mi attribuisci come autore originale e che non le utilizzi a scopi commerciali.
