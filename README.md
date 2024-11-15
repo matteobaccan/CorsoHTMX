@@ -36,9 +36,5 @@ Per seguire il corso, è necessario disporre di:
 * Un browser web
 * Un lettore PDF
 
-## Licenza
-
-Queste slide sono rilasciate sotto una licenza Creative Commons BY-NC 4.0. Puoi utilizzare, modificare e distribuire queste slide a condizione che mi attribuisci come autore originale e che non le utilizzi a scopi commerciali.
-
 [![HTML5 Validation](https://github.com/matteobaccan/CorsoHTMX/actions/workflows/validation.yml/badge.svg)](https://github.com/matteobaccan/CorsoHTMX/actions/workflows/validation.yml)
 [![Genera PDF](https://github.com/matteobaccan/CorsoHTMX/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoHTMX/actions/workflows/generatepdf.yml)
